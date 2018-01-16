@@ -3,5 +3,5 @@ Tipical git commands in console just the tipicals
 
 ## need to install
 ```
-pip install
+pip install pick
 ```

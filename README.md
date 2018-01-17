@@ -6,4 +6,4 @@ Tipical git commands in console just the tipicals
 pip install pick
 ```
 
-.
+

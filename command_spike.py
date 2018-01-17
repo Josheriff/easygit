@@ -1,15 +1,20 @@
-import commands
-print commands.getstatusoutput('git status')
-
 from blessings import Terminal
 
-t = Terminal()
-print t.red('This is red.')
-print t.bold_bright_red_on_black('Bright red on black')
+import commands
 
-# PYTHON 3
-#import subprocess
+repo_status_tuple = commands.getstatusoutput('git status')
+repo_status = repo_status_tuple[1]
 
-#output = subprocess.run("git status", shell=True, stdout=subprocess.PIPE,
-#                        universal_newlines=True)
-#print('UEEEEEEE', output.stdout,'<<<<<<<')
+#start = '/t'
+#end = ':'
+#result= repo_status[1].split(start)[1].split(end)[0]
+
+#print (result)
+
+
+
+
+
+#t = Terminal()
+#print t.red('This is red.')
+#print t.bold_bright_red_on_black('Bright red on black')

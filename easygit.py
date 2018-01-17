@@ -1,6 +1,6 @@
+#!/usr/bin/python
 from blessings import Terminal
 from pick import pick
-import commands
 
 title = 'Please choose the files you want to add (press SPACE to mark, ENTER to continue): '
 options = ['README.MD', 'aFile.js', 'a_python_file.py', 'index.html']

@@ -1,7 +1,7 @@
 # Easygit
 Tipical git commands in console just the tipicals
 
-## need to install
+### need to install
 ```
 pip install pick
 pip install blessings

@@ -1,0 +1,15 @@
+En la rama master
+Su rama está actualizada con «origin/master».
+Cambios no preparados para el commit:
+  (use «git add <archivo>...» para actualizar lo que se confirmará)
+  (use «git checkout -- <archivo>...» para descartar cambios en el directorio de trabajo)
+
+	modificado:    README.md
+	modificado:    command_spike.py
+
+Archivos sin seguimiento:
+  (use «git add <archivo>...» para incluir en lo que se ha de confirmar)
+
+	status.txt
+
+no hay cambios agregados al commit (use «git add» o «git commit -a»)

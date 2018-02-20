@@ -2,7 +2,7 @@
 import os
 repo_status = os.popen("git status --short").read()
 
-#A  .gitignore
+#A  .gitignore   <- English version is D not an A
 # M command_spike.py
 # M easygit.py
 # ?? concepto.txt
@@ -10,9 +10,18 @@ repo_status = os.popen("git status --short").read()
 # ?? spec.py
 
 
-text = repo_status.split('\n')
+lines = repo_status.split('\n')
 
-print (text)
+added = []
+modified = []
+unstagged = []
+
+for line in lines:
+    print(line)
+    #if line[0] == '?':
+       # unstagged.append(line[3:])
+
+print (unstagged)
 
 
 
